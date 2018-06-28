@@ -1,0 +1,96 @@
+*{margin:0;
+  padding:0;
+  list-style:none;
+  text-decoration:none;
+  }
+
+h1,h2,h3,h4,h5{padding:5px 0 10px 10px;}
+
+header{width:100%;
+       border:1px solid #e7e7e7 ;
+       background:#F7F7F7;
+       font-size:50px;
+       position:absolute;
+       top:0px;
+       border-radius:5px;
+       z-index:1;
+       line-height:100px;
+       
+       }
+/*时钟*/
+.clock{width:80%;
+       position:absolute;
+       top:150px;
+       left:50px;
+       line-height:30px;
+       border:1px solid #e7e7e7;
+       border-radius:5px;
+       box-shadow:1px 2px 5px  #e7e7e7 
+       }
+
+
+.tipcontent{padding:20px;}
+
+.buildhead{height:50px;
+             background:#F7F7F7;
+             border-bottom:1px solid #e7e7e7;
+             line-height:50px;
+           }
+
+/*星星*/
+
+.star{width:80%;
+      position:absolute;
+      top:600px;
+      left:50px;
+      line-height:30px;
+      border:1px solid #e7e7e7;
+      border-radius:5px;
+      box-shadow:1px 2px 5px  #e7e7e7 
+    }
+
+/*万花筒*/
+.beautiful{width:80%;
+           position:absolute;
+           top:1250px;
+           left:50px;
+           line-height:30px;
+           border:1px solid #e7e7e7;
+           border-radius:5px;
+           box-shadow:1px 2px 5px  #e7e7e7 }
+
+.substyle{color: #fff;
+          background-color: #5cb85c;
+          border-color: #4cae4c;
+          padding:0px 15px 0px 15px;
+          height:35px;
+          border:1px solid transparent;
+          border-radius:4px;
+          cursor:pointer;
+          margin-top:10px;
+          margin-left:55px;
+          }
+
+.substyle:hover{color: #fff;
+                background-color: #449d44;
+                border-color: #398439;}
+
+/*转盘*/
+.turnaround{width:80%;
+            position:absolute;
+            top:2000px;
+            left:50px;
+            line-height:30px;
+            border:1px solid #e7e7e7;
+            border-radius:5px;
+            box-shadow:1px 2px 5px  #e7e7e7 }
+
+/*球反弹*/
+.ballhit{width:80%;
+         position:absolute;
+         top:2700px;
+         left:50px;
+         line-height:30px;
+         border:1px solid #e7e7e7;
+         border-radius:5px;
+         box-shadow:1px 2px 5px  #e7e7e7 }

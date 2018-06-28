@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas学习</title>
+	<link rel="stylesheet" type="text/css" href="css/type.css">
+</head>
+<body>
+  <header>
+    <span class="nav-head">canvas学习之旅</span>
+  </header>
+  <div class="clock">
+     <h1 class="buildhead">时钟</h1>
+     <div class="tipcontent">
+          <canvas width="300" height="300" id="clock" style="float:left;">
+          </canvas>
+     </div>
+  </div>
+  <div class="star">
+     <h1 class="buildhead">闪烁的星星</h1>
+     <div class="tipcontent">
+          <canvas width="1100" height="500" id="star" style="float:left;">
+          </canvas>
+     </div>
+  </div>
+  <div class="beautiful">
+     <h1 class="buildhead">万花筒</h1>
+     <div class="tipcontent">
+          <input type="submit" value="来一波万花筒"  class="substyle" id="wonderful">
+          <input type="submit" value="停止"  class="substyle" id="stop">
+           <canvas width="600" height="610" id="beautiful" style="float:left;">
+           </canvas>
+     </div>
+  </div>
+  <div class="turnaround">
+     <h1 class="buildhead">获奖转盘</h1>
+     <div class="tipcontent">
+           <input type="submit" value="转一转！"  class="substyle" id="surprise" >
+           <canvas width="530" height="530" id="turnaround" style="float:left;">
+           </canvas>
+      </div>
+  </div>
+  <div class="ballhit">
+     <h1 class="buildhead">球的反弹</h1>
+     <div class="tipcontent">
+           <canvas width="1100" height="500" id="ballhit" style="float:left;">
+           </canvas>
+      </div>
+  </div>
+  <img src="images/ball.gif" id="ball" hidden>
+  <script type="text/javascript" src="canvas.js"></script>
+</body>
+</html>
